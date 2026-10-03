@@ -1,0 +1,162 @@
+{
+    "books": [
+        {
+            "title": "Sefiller",
+            "author": "Victor Hugo",
+            "publication_year": 1862,
+            "is_borrowed": true,
+            "borrowed_by": "said",
+            "genre": "Dram",
+            "type": "novel"
+        },
+        {
+            "title": "1984",
+            "author": "George Orwell",
+            "publication_year": 1949,
+            "is_borrowed": false,
+            "borrowed_by": null,
+            "genre": "Distopya",
+            "type": "novel"
+        },
+        {
+            "title": "Suç ve Ceza",
+            "author": "Fyodor Dostoyevski",
+            "publication_year": 1866,
+            "is_borrowed": false,
+            "borrowed_by": null,
+            "genre": "Klasik",
+            "type": "novel"
+        },
+        {
+            "title": "Simyacı",
+            "author": "Paulo Coelho",
+            "publication_year": 1988,
+            "is_borrowed": false,
+            "borrowed_by": "null",
+            "genre": "Macera",
+            "type": "novel"
+        },
+        {
+            "title": "Yüzüklerin Efendisi",
+            "author": "J.R.R. Tolkien",
+            "publication_year": 1954,
+            "is_borrowed": false,
+            "borrowed_by": null,
+            "genre": "Fantastik",
+            "type": "novel"
+        },
+        {
+            "title": "Dune",
+            "author": "Frank Herbert",
+            "publication_year": 1965,
+            "is_borrowed": true,
+            "borrowed_by": "mehmet",
+            "genre": "Bilim Kurgu",
+            "type": "novel"
+        },
+        {
+            "title": "Kürk Mantolu Madonna",
+            "author": "Sabahattin Ali",
+            "publication_year": 1943,
+            "is_borrowed": false,
+            "borrowed_by": null,
+            "genre": "Dram",
+            "type": "novel"
+        },
+        {
+            "title": "Ve Dağlar Yankılandı",
+            "author": "Khaled Hosseini",
+            "publication_year": 2013,
+            "is_borrowed": false,
+            "borrowed_by": null,
+            "genre": "Dram",
+            "type": "novel"
+        },
+        {
+            "title": "Böcek",
+            "author": "Franz Kafka",
+            "publication_year": 1915,
+            "is_borrowed": true,
+            "borrowed_by": "said",
+            "genre": "Absürt",
+            "type": "novel"
+        },
+        {
+            "title": "Da Vinci Şifresi",
+            "author": "Dan Brown",
+            "publication_year": 2003,
+            "is_borrowed": false,
+            "borrowed_by": null,
+            "genre": "Gerilim",
+            "type": "novel"
+        },
+        {
+            "title": "National Geographic",
+            "author": "Çeşitli Yazarlar",
+            "publication_year": 2024,
+            "is_borrowed": false,
+            "borrowed_by": null,
+            "issue": "Ekim Sayısı",
+            "type": "magazine"
+        },
+        {
+            "title": "National Geographic",
+            "author": "Çeşitli Yazarlar",
+            "publication_year": 2024,
+            "is_borrowed": false,
+            "borrowed_by": "null",
+            "issue": "Kasım Sayısı",
+            "type": "magazine"
+        },
+        {
+            "title": "Bilim ve Teknik",
+            "author": "TÜBİTAK",
+            "publication_year": 2023,
+            "is_borrowed": false,
+            "borrowed_by": null,
+            "issue": "Aralık Sayısı",
+            "type": "magazine"
+        },
+        {
+            "title": "Popular Science",
+            "author": "Çeşitli Yazarlar",
+            "publication_year": 2024,
+            "is_borrowed": false,
+            "borrowed_by": null,
+            "issue": "Eylül Sayısı",
+            "type": "magazine"
+        },
+        {
+            "title": "Atlas",
+            "author": "Çeşitli Yazarlar",
+            "publication_year": 2022,
+            "is_borrowed": true,
+            "borrowed_by": "ayse",
+            "issue": "Mart Sayısı",
+            "type": "magazine"
+        }
+    ],
+    "users": [
+        {
+            "name": "said",
+            "password": "said",
+            "borrowed_books": [
+                "Sefiller"
+            ]
+        },
+        {
+            "name": "ayse",
+            "password": "ayse",
+            "borrowed_books": [
+                "Atlas"
+            ]
+        },
+        {
+            "name": "mehmet",
+            "password": "mehmet",
+            "borrowed_books": [
+                "Dune"
+            ]
+        }
+    ]
+}
